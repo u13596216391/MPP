@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+ENV/
+
+# Data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Outputs
+outputs/models/*
+outputs/predictions/*
+outputs/visualizations/*
+!outputs/models/.gitkeep
+!outputs/predictions/.gitkeep
+!outputs/visualizations/.gitkeep
+
+# Logs
+logs/*
+!logs/.gitkeep
+runs/*
+!runs/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
